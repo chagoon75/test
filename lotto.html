@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Lotto Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/lotto.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Test Project</h1>
+      <ul>
+        <li><a href="index.html#home">홈</a></li>
+        <li><a href="index.html#about">소개</a></li>
+        <li><a href="index.html#contact">연락처</a></li>
+        <li><a href="lotto.html" class="active">로또 생성기</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="lotto-main">
+    <section class="lotto-container">
+      <div class="glass-card">
+        <h2 class="title">Lotto 6/45 Generator</h2>
+        <p class="subtitle">당신의 행운을 확인해보세요!</p>
+        
+        <div class="balls-wrapper" id="balls-container">
+          <!-- 공이 생성될 위치 -->
+          <div class="placeholder">번호를 생성해주세요</div>
+        </div>
+
+        <button id="generate-btn" class="generate-btn">
+          <span class="btn-text">번호 생성하기</span>
+          <span class="btn-icon">✨</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Test Project. All rights reserved.</p>
+  </footer>
+
+  <script src="js/lotto.js"></script>
+</body>
+</html>
